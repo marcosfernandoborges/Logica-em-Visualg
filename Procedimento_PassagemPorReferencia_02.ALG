@@ -15,7 +15,6 @@ Inicio
       Escreval ("Valor de B: " , b)
       Escreval ("O VALOR DE A+B = " , a+b)
 
-
 FimProcedimento
 
 
