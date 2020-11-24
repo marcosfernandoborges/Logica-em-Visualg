@@ -7,25 +7,18 @@ Algoritmo "Sequencia Fibonacci"
 
 
 Funcao fibo(var x1,x2:inteiro):inteiro
-var x3, cont:inteiro
+var x3:inteiro
 Inicio
-
-      Para cont <- 1 ate 16 passo 1 faca
               x3 <- (x1 + x2)
-              Escreva (x3)
-
               x1 <- (x2)
               x2 <- (x3)
-      Fimpara
-         
-      Retorne (x3)
-
+              Retorne (x3)
 FimFuncao
 
 
 Var
 // Seção de Declarações das variáveis 
-n1, n2, result: inteiro
+n1, n2, cont, result: inteiro
 
 
 Inicio
@@ -41,7 +34,9 @@ Escreval ("")
 n1 <- 0
 n2 <- 1
 
-       result <- fibo(n1,n2)
-       Escreva (result)
+       Para cont <- 1 ate 16 passo 1 faca
+            result <- fibo(n1,n2)
+            Escreva (result)
+       Fimpara
 
 Fimalgoritmo
